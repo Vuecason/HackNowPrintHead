@@ -13,7 +13,8 @@
 
 //Includes---------------------------------------------------------------------
 #include <Arduino.h>
-#include "HBridge/L298N.h"
+#include "Motor/Bridge/L298N.h"
+#include "GearMotor.h"
 
 class Extruder_t{
     public:
